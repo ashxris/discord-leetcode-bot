@@ -1,0 +1,542 @@
+[
+    {
+        "topic": "Arrays & Hashing",
+        "title": "Two Sum",
+        "url": "https://leetcode.com/problems/two-sum/",
+        "description": "Given an array of integers and a target sum.\nFind the indices of the two numbers that add up to the target.\nHint: Use a hash map to store seen values for O(n) time complexity."
+    },
+    {
+        "topic": "Arrays & Hashing",
+        "title": "Valid Anagram",
+        "url": "https://leetcode.com/problems/valid-anagram/",
+        "description": "Determine if two strings contain the exact same characters in any order.\nA classic string manipulation and frequency counting problem.\nHint: Use a hash map or an array of size 26 to count character frequencies."
+    },
+    {
+        "topic": "Arrays & Hashing",
+        "title": "Contains Duplicate",
+        "url": "https://leetcode.com/problems/contains-duplicate/",
+        "description": "Check if any value appears at least twice in the array.\nThis is a fundamental problem to test your understanding of sets.\nHint: A hash set will give you O(n) time and space complexity."
+    },
+    {
+        "topic": "Arrays & Hashing",
+        "title": "Group Anagrams",
+        "url": "https://leetcode.com/problems/group-anagrams/",
+        "description": "Given an array of strings, group the anagrams together.\nYou need to find a unique representation for each set of anagrams.\nHint: Sort each string or use character counts as a dictionary key."
+    },
+    {
+        "topic": "Arrays & Hashing",
+        "title": "Top K Frequent Elements",
+        "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "description": "Find the k most frequent elements in an integer array.\nTests your ability to use heaps or bucket sort algorithms.\nHint: Count frequencies first, then use a max-heap or bucket array."
+    },
+    {
+        "topic": "Two Pointers",
+        "title": "Valid Palindrome",
+        "url": "https://leetcode.com/problems/valid-palindrome/",
+        "description": "Check if a string reads the same forwards and backwards.\nYou should ignore non-alphanumeric characters and case.\nHint: Use two pointers starting from both ends moving towards the center."
+    },
+    {
+        "topic": "Two Pointers",
+        "title": "3Sum",
+        "url": "https://leetcode.com/problems/3sum/",
+        "description": "Find all unique triplets in an array that sum up to zero.\nA step up from Two Sum, requiring careful handling of duplicates.\nHint: Sort the array first, then use a loop with two pointers."
+    },
+    {
+        "topic": "Two Pointers",
+        "title": "Container With Most Water",
+        "url": "https://leetcode.com/problems/container-with-most-water/",
+        "description": "Find two lines that together with the x-axis form a container holding the most water.\nA classic optimization problem using the two-pointer technique.\nHint: Start pointers at the ends and move the one with the smaller height."
+    },
+    {
+        "topic": "Two Pointers",
+        "title": "Trapping Rain Water",
+        "url": "https://leetcode.com/problems/trapping-rain-water/",
+        "description": "Calculate how much water can be trapped between elevation maps after raining.\nA challenging problem that tests your understanding of arrays and boundaries.\nHint: Use two pointers or precompute the max heights from left and right."
+    },
+    {
+        "topic": "Two Pointers",
+        "title": "Two Sum II - Input Array Is Sorted",
+        "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+        "description": "Find two numbers that add up to a target in a 1-indexed sorted array.\nYou must use only constant extra space.\nHint: Since it is sorted, use two pointers from the start and end."
+    },
+    {
+        "topic": "Stacks",
+        "title": "Valid Parentheses",
+        "url": "https://leetcode.com/problems/valid-parentheses/",
+        "description": "Determine if a string of brackets is well-formed and closed in the correct order.\nThe quintessential stack problem.\nHint: Push opening brackets onto a stack and pop when matching closing brackets."
+    },
+    {
+        "topic": "Stacks",
+        "title": "Min Stack",
+        "url": "https://leetcode.com/problems/min-stack/",
+        "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.\nTests your ability to augment standard data structures.\nHint: Store tuples of (value, current_min) in your stack."
+    },
+    {
+        "topic": "Stacks",
+        "title": "Daily Temperatures",
+        "url": "https://leetcode.com/problems/daily-temperatures/",
+        "description": "Find how many days you have to wait until a warmer temperature.\nA great introduction to monotonic stacks.\nHint: Keep a stack of indices for temperatures you haven't found a warmer day for."
+    },
+    {
+        "topic": "Stacks",
+        "title": "Generate Parentheses",
+        "url": "https://leetcode.com/problems/generate-parentheses/",
+        "description": "Generate all combinations of n pairs of well-formed parentheses.\nA classic backtracking problem.\nHint: Keep track of the number of open and closed brackets you have used."
+    },
+    {
+        "topic": "Stacks",
+        "title": "Largest Rectangle in Histogram",
+        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "description": "Find the area of the largest rectangle in a histogram.\nA difficult problem that optimally uses a monotonic stack.\nHint: Maintain a stack of indices in increasing order of heights."
+    },
+    {
+        "topic": "Binary Search",
+        "title": "Binary Search",
+        "url": "https://leetcode.com/problems/binary-search/",
+        "description": "Find a target integer in a sorted array in O(log n) time.\nThe foundational algorithm for searching sorted data.\nHint: Maintain left and right pointers and check the middle element."
+    },
+    {
+        "topic": "Binary Search",
+        "title": "Search in Rotated Sorted Array",
+        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        "description": "Find a target in a sorted array that has been pivoted at an unknown point.\nRequires modifying the standard binary search logic.\nHint: Determine which half of the array is properly sorted first."
+    },
+    {
+        "topic": "Binary Search",
+        "title": "Find Minimum in Rotated Sorted Array",
+        "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+        "description": "Find the smallest element in a rotated sorted array in O(log n) time.\nA variation of binary search focusing on inflection points.\nHint: Compare the middle element with the rightmost element to find the dip."
+    },
+    {
+        "topic": "Binary Search",
+        "title": "Koko Eating Bananas",
+        "url": "https://leetcode.com/problems/koko-eating-bananas/",
+        "description": "Find the minimum eating speed to finish all bananas within h hours.\nA classic 'binary search on the answer' problem.\nHint: The minimum speed is 1 and the maximum is the largest pile."
+    },
+    {
+        "topic": "Binary Search",
+        "title": "Median of Two Sorted Arrays",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "description": "Find the median of two sorted arrays in O(log(m+n)) time.\nOne of the most challenging binary search problems.\nHint: Binary search on the smaller array to find the correct partition."
+    },
+    {
+        "topic": "Sliding Window",
+        "title": "Best Time to Buy and Sell Stock",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "description": "Maximize your profit by choosing a single day to buy and a single day to sell.\nA fundamental problem for sliding window / dynamic programming.\nHint: Keep track of the minimum price seen so far and the max profit."
+    },
+    {
+        "topic": "Sliding Window",
+        "title": "Longest Substring Without Repeating Characters",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "description": "Find the length of the longest substring without repeating characters.\nThe quintessential sliding window problem.\nHint: Use a set or map to track characters in the current window."
+    },
+    {
+        "topic": "Sliding Window",
+        "title": "Minimum Window Substring",
+        "url": "https://leetcode.com/problems/minimum-window-substring/",
+        "description": "Find the minimum window in a string containing all characters of another string.\nA hard sliding window problem requiring careful frequency counting.\nHint: Expand the right pointer to find a valid window, then shrink from the left."
+    },
+    {
+        "topic": "Sliding Window",
+        "title": "Longest Repeating Character Replacement",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "description": "Find the longest substring containing the same letter after at most k replacements.\nTests your ability to maintain window state efficiently.\nHint: The window is valid if (length - max_freq_char_count) <= k."
+    },
+    {
+        "topic": "Sliding Window",
+        "title": "Sliding Window Maximum",
+        "url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "description": "Find the maximum in every sliding window of size k in an array.\nA hard problem optimally solved with a deque.\nHint: Maintain a decreasing monotonic queue of indices."
+    },
+    {
+        "topic": "Linked List",
+        "title": "Reverse Linked List",
+        "url": "https://leetcode.com/problems/reverse-linked-list/",
+        "description": "Reverse a singly linked list.\nThe most fundamental linked list manipulation problem.\nHint: Use three pointers: prev, curr, and next."
+    },
+    {
+        "topic": "Linked List",
+        "title": "Merge Two Sorted Lists",
+        "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+        "description": "Merge two sorted linked lists into one sorted list.\nA classic algorithm that forms the basis of merge sort.\nHint: Use a dummy head node and iteratively attach the smaller node."
+    },
+    {
+        "topic": "Linked List",
+        "title": "Linked List Cycle",
+        "url": "https://leetcode.com/problems/linked-list-cycle/",
+        "description": "Determine if a linked list has a cycle in it.\nA famous problem testing the slow and fast pointer technique.\nHint: Floyd's Cycle-Finding Algorithm (Tortoise and Hare)."
+    },
+    {
+        "topic": "Linked List",
+        "title": "Reorder List",
+        "url": "https://leetcode.com/problems/reorder-list/",
+        "description": "Reorder a linked list to alternate between the first and last halves.\nCombines finding the middle, reversing a list, and merging.\nHint: Use fast/slow pointers to find the mid, then reverse the second half."
+    },
+    {
+        "topic": "Linked List",
+        "title": "Merge k Sorted Lists",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "description": "Merge k sorted linked lists into one sorted list.\nA hard problem that combines linked lists with priority queues.\nHint: Use a min-heap to keep track of the current smallest node among all lists."
+    },
+    {
+        "topic": "Trees",
+        "title": "Binary Tree Level Order Traversal",
+        "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+        "description": "Return the level order traversal of a binary tree's nodes' values.\nThe quintessential Breadth-First Search (BFS) problem for trees.\nHint: Use a queue to process nodes level by level."
+    },
+    {
+        "topic": "Trees",
+        "title": "Maximum Depth of Binary Tree",
+        "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+        "description": "Find the maximum depth of a binary tree.\nA fundamental Depth-First Search (DFS) or BFS problem.\nHint: The depth is 1 + max(left_depth, right_depth)."
+    },
+    {
+        "topic": "Trees",
+        "title": "Lowest Common Ancestor of a Binary Search Tree",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+        "description": "Find the lowest common ancestor of two nodes in a BST.\nUtilizes the core property of Binary Search Trees.\nHint: If both values are greater/less than the root, go right/left."
+    },
+    {
+        "topic": "Trees",
+        "title": "Binary Tree Maximum Path Sum",
+        "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "description": "Find the maximum path sum in a binary tree (any node to any node).\nA challenging DFS problem requiring post-order traversal.\nHint: At each node, compute the max path going straight down, but update a global max with the split path."
+    },
+    {
+        "topic": "Trees",
+        "title": "Serialize and Deserialize Binary Tree",
+        "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "description": "Design an algorithm to serialize and deserialize a binary tree.\nTests your ability to represent tree structures as strings.\nHint: Pre-order traversal with a special marker for null nodes works well."
+    },
+    {
+        "topic": "Heap / Priority Queue",
+        "title": "Kth Largest Element in an Array",
+        "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+        "description": "Find the kth largest element in an unsorted array.\nCan be solved with sorting, heaps, or QuickSelect.\nHint: A min-heap of size k is an optimal solution."
+    },
+    {
+        "topic": "Heap / Priority Queue",
+        "title": "K Closest Points to Origin",
+        "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+        "description": "Find the k closest points to the origin (0, 0).\nA classic priority queue problem involving geometry.\nHint: Use a max-heap of size k based on the distance formula."
+    },
+    {
+        "topic": "Heap / Priority Queue",
+        "title": "Task Scheduler",
+        "url": "https://leetcode.com/problems/task-scheduler/",
+        "description": "Find the minimum intervals required to finish all tasks with a cooldown period.\nA tricky greedy/heap problem requiring careful counting.\nHint: Focus on scheduling the most frequent tasks first."
+    },
+    {
+        "topic": "Heap / Priority Queue",
+        "title": "Find Median from Data Stream",
+        "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "description": "Design a data structure that supports adding numbers and finding the median.\nA hard design problem optimally solved with two heaps.\nHint: Maintain a max-heap for the lower half and a min-heap for the upper half."
+    },
+    {
+        "topic": "Heap / Priority Queue",
+        "title": "Merge k Sorted Lists",
+        "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "description": "Merge k sorted linked lists into one sorted list.\nA hard problem that combines linked lists with priority queues.\nHint: Use a min-heap to keep track of the current smallest node among all lists."
+    },
+    {
+        "topic": "Backtracking",
+        "title": "Subsets",
+        "url": "https://leetcode.com/problems/subsets/",
+        "description": "Find all possible subsets (the power set) of a unique integer array.\nThe most basic backtracking/combinatorics problem.\nHint: At each step, you can either include the current element or exclude it."
+    },
+    {
+        "topic": "Backtracking",
+        "title": "Combination Sum",
+        "url": "https://leetcode.com/problems/combination-sum/",
+        "description": "Find all unique combinations of candidates where the chosen numbers sum to target.\nA backtracking problem where elements can be reused.\nHint: Subtract the candidate from the target and recurse."
+    },
+    {
+        "topic": "Backtracking",
+        "title": "Permutations",
+        "url": "https://leetcode.com/problems/permutations/",
+        "description": "Given an array of distinct integers, return all the possible permutations.\nA classic backtracking problem for generating all arrangements.\nHint: Swap elements or keep a boolean array of used elements."
+    },
+    {
+        "topic": "Backtracking",
+        "title": "Word Search",
+        "url": "https://leetcode.com/problems/word-search/",
+        "description": "Given a grid of characters, find if a word exists in it (horizontally/vertically).\nA standard DFS backtracking problem on a 2D matrix.\nHint: Temporarily modify the board to mark visited cells to avoid revisiting."
+    },
+    {
+        "topic": "Backtracking",
+        "title": "N-Queens",
+        "url": "https://leetcode.com/problems/n-queens/",
+        "description": "Place n queens on an n x n chessboard such that no two queens attack each other.\nThe quintessential complex backtracking puzzle.\nHint: Maintain sets for occupied columns, positive diagonals, and negative diagonals."
+    },
+    {
+        "topic": "Tries",
+        "title": "Implement Trie (Prefix Tree)",
+        "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+        "description": "Design a Trie data structure supporting insert, search, and startsWith.\nThe foundational problem for understanding prefix trees.\nHint: Each node should contain an array/map of children and a boolean 'is_end' flag."
+    },
+    {
+        "topic": "Tries",
+        "title": "Design Add and Search Words Data Structure",
+        "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+        "description": "Design a data structure that adds words and searches with '.' as a wildcard.\nA slightly more complex Trie problem requiring DFS.\nHint: If you encounter a '.', recursively check all possible child nodes."
+    },
+    {
+        "topic": "Tries",
+        "title": "Word Search II",
+        "url": "https://leetcode.com/problems/word-search-ii/",
+        "description": "Find all words from a dictionary that are present in a 2D board.\nA hard problem combining DFS on a grid with a Trie.\nHint: Build a Trie from the dictionary and traverse the grid, pruning paths not in the Trie."
+    },
+    {
+        "topic": "Tries",
+        "title": "Longest Common Prefix",
+        "url": "https://leetcode.com/problems/longest-common-prefix/",
+        "description": "Find the longest common prefix string amongst an array of strings.\nA straightforward string manipulation problem.\nHint: Compare characters at the same index across all strings until a mismatch occurs."
+    },
+    {
+        "topic": "Tries",
+        "title": "Replace Words",
+        "url": "https://leetcode.com/problems/replace-words/",
+        "description": "Replace words in a sentence with their shortest root from a dictionary.\nAn excellent application of a Trie for fast prefix matching.\nHint: Insert all roots into a Trie and find the shortest prefix for each word."
+    },
+    {
+        "topic": "Graphs",
+        "title": "Number of Islands",
+        "url": "https://leetcode.com/problems/number-of-islands/",
+        "description": "Count the number of islands (connected 1s) in a 2D grid.\nThe classic graph traversal problem for grids.\nHint: Iterate through the grid and launch a DFS/BFS to sink each island you find."
+    },
+    {
+        "topic": "Graphs",
+        "title": "Clone Graph",
+        "url": "https://leetcode.com/problems/clone-graph/",
+        "description": "Return a deep copy of a connected undirected graph.\nTests your ability to traverse graphs and manage object references.\nHint: Use a hash map to map original nodes to their cloned counterparts."
+    },
+    {
+        "topic": "Graphs",
+        "title": "Pacific Atlantic Water Flow",
+        "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+        "description": "Find cells where water can flow to both the Pacific and Atlantic oceans.\nA grid traversal problem starting from the boundaries.\nHint: Run DFS/BFS from the ocean borders inwards to find reachable cells."
+    },
+    {
+        "topic": "Graphs",
+        "title": "Course Schedule",
+        "url": "https://leetcode.com/problems/course-schedule/",
+        "description": "Determine if you can finish all courses given prerequisite pairs.\nA classic topological sort / cycle detection problem.\nHint: Build a directed graph and check for cycles using DFS or Kahn's algorithm."
+    },
+    {
+        "topic": "Graphs",
+        "title": "Word Ladder",
+        "url": "https://leetcode.com/problems/word-ladder/",
+        "description": "Find the shortest transformation sequence from a begin word to an end word.\nA shortest path problem optimally solved with BFS.\nHint: Build an adjacency list using wildcards (e.g., 'h*t') to connect similar words."
+    },
+    {
+        "topic": "Advanced Graphs",
+        "title": "Network Delay Time",
+        "url": "https://leetcode.com/problems/network-delay-time/",
+        "description": "Find the time it takes for a signal to reach all nodes in a network.\nA classic shortest path problem on a weighted graph.\nHint: Use Dijkstra's Algorithm with a min-heap."
+    },
+    {
+        "topic": "Advanced Graphs",
+        "title": "Min Cost to Connect All Points",
+        "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+        "description": "Find the minimum cost to connect all points on a 2D plane.\nThe quintessential Minimum Spanning Tree (MST) problem.\nHint: Use Prim's or Kruskal's algorithm."
+    },
+    {
+        "topic": "Advanced Graphs",
+        "title": "Cheapest Flights Within K Stops",
+        "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+        "description": "Find the cheapest price from a source to destination with at most k stops.\nA variation of shortest path that adds a constraint on the number of edges.\nHint: Use Bellman-Ford or a modified Dijkstra's/BFS tracking steps."
+    },
+    {
+        "topic": "Advanced Graphs",
+        "title": "Swim in Rising Water",
+        "url": "https://leetcode.com/problems/swim-in-rising-water/",
+        "description": "Find the minimum time needed to reach the bottom-right square of a grid.\nA pathfinding problem combining grids and priority queues.\nHint: Use Dijkstra's algorithm, maintaining the max elevation seen on the path."
+    },
+    {
+        "topic": "Advanced Graphs",
+        "title": "Reconstruct Itinerary",
+        "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+        "description": "Reconstruct a travel itinerary from a list of airline tickets.\nA challenging problem based on finding an Eulerian path.\nHint: Build a graph with sorted destinations and do a post-order DFS."
+    },
+    {
+        "topic": "1-D Dynamic Programming",
+        "title": "Climbing Stairs",
+        "url": "https://leetcode.com/problems/climbing-stairs/",
+        "description": "Find the number of distinct ways to climb n stairs taking 1 or 2 steps.\nThe 'Hello World' of dynamic programming.\nHint: The solution is identical to computing the Fibonacci sequence."
+    },
+    {
+        "topic": "1-D Dynamic Programming",
+        "title": "House Robber",
+        "url": "https://leetcode.com/problems/house-robber/",
+        "description": "Find the maximum amount of money you can rob from houses without robbing adjacent ones.\nA fundamental 1D dynamic programming problem.\nHint: At each house, you decide to either rob it (plus dp[i-2]) or skip it (dp[i-1])."
+    },
+    {
+        "topic": "1-D Dynamic Programming",
+        "title": "Coin Change",
+        "url": "https://leetcode.com/problems/coin-change/",
+        "description": "Find the minimum number of coins needed to make up a given amount.\nA classic unbounded knapsack problem.\nHint: Build up the solution from amount 0 up to the target amount."
+    },
+    {
+        "topic": "1-D Dynamic Programming",
+        "title": "Longest Increasing Subsequence",
+        "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "description": "Find the length of the longest strictly increasing subsequence in an array.\nA core dynamic programming concept that can also be solved with binary search.\nHint: dp[i] represents the length of the LIS ending at index i."
+    },
+    {
+        "topic": "1-D Dynamic Programming",
+        "title": "Word Break",
+        "url": "https://leetcode.com/problems/word-break/",
+        "description": "Determine if a string can be segmented into a space-separated sequence of dictionary words.\nA 1D DP problem testing string matching and state.\nHint: dp[i] is true if the string up to index i can be segmented."
+    },
+    {
+        "topic": "2-D Dynamic Programming",
+        "title": "Unique Paths",
+        "url": "https://leetcode.com/problems/unique-paths/",
+        "description": "Find the number of possible unique paths from top-left to bottom-right of a grid.\nThe fundamental 2D dynamic programming problem.\nHint: The number of paths to a cell is the sum of paths to the cell above it and left of it."
+    },
+    {
+        "topic": "2-D Dynamic Programming",
+        "title": "Longest Common Subsequence",
+        "url": "https://leetcode.com/problems/longest-common-subsequence/",
+        "description": "Find the length of the longest common subsequence between two strings.\nA classic 2D DP problem comparing two sequences.\nHint: Build a 2D DP table where dp[i][j] represents the LCS up to indices i and j."
+    },
+    {
+        "topic": "2-D Dynamic Programming",
+        "title": "Edit Distance",
+        "url": "https://leetcode.com/problems/edit-distance/",
+        "description": "Find the minimum operations to convert one string to another.\nA famous DP problem used in spell checkers and genetics.\nHint: Operations are insert, delete, and replace. Map them to your DP transitions."
+    },
+    {
+        "topic": "2-D Dynamic Programming",
+        "title": "Burst Balloons",
+        "url": "https://leetcode.com/problems/burst-balloons/",
+        "description": "Find the maximum coins you can collect by bursting balloons.\nA very challenging DP problem that requires thinking in reverse.\nHint: dp[i][j] represents the max coins obtained by bursting balloons between i and j."
+    },
+    {
+        "topic": "2-D Dynamic Programming",
+        "title": "Regular Expression Matching",
+        "url": "https://leetcode.com/problems/regular-expression-matching/",
+        "description": "Implement regular expression matching with support for '.' and '*'.\nA difficult string parsing problem optimally solved with 2D DP.\nHint: Carefully handle the '*' character, which can represent zero or more of the preceding element."
+    },
+    {
+        "topic": "Greedy",
+        "title": "Jump Game",
+        "url": "https://leetcode.com/problems/jump-game/",
+        "description": "Determine if you can reach the last index of an array.\nA classic greedy problem.\nHint: Keep track of the maximum reachable index as you iterate."
+    },
+    {
+        "topic": "Greedy",
+        "title": "Jump Game II",
+        "url": "https://leetcode.com/problems/jump-game-ii/",
+        "description": "Find the minimum number of jumps to reach the last index.\nA greedy problem requiring you to track the current jump boundaries.\nHint: Maintain the farthest index reachable in the current jump and the next jump."
+    },
+    {
+        "topic": "Greedy",
+        "title": "Gas Station",
+        "url": "https://leetcode.com/problems/gas-station/",
+        "description": "Find the starting gas station's index if you can travel around the circuit once.\nA greedy problem that requires single-pass optimization.\nHint: If total gas >= total cost, a solution exists. Keep track of the current tank deficit."
+    },
+    {
+        "topic": "Greedy",
+        "title": "Partition Labels",
+        "url": "https://leetcode.com/problems/partition-labels/",
+        "description": "Partition a string into as many parts as possible so each letter appears in at most one part.\nA greedy problem involving character last-occurrence indices.\nHint: Record the last occurrence of each character, then iterate and update the partition boundary."
+    },
+    {
+        "topic": "Greedy",
+        "title": "Non-overlapping Intervals",
+        "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+        "description": "Find the minimum number of intervals you need to remove to make the rest non-overlapping.\nA greedy interval scheduling problem.\nHint: Sort by end times and always pick the interval that ends earliest."
+    },
+    {
+        "topic": "Intervals",
+        "title": "Merge Intervals",
+        "url": "https://leetcode.com/problems/merge-intervals/",
+        "description": "Merge all overlapping intervals into an array of non-overlapping intervals.\nThe foundational problem for interval manipulation.\nHint: Sort intervals by start time and merge if the next start <= current end."
+    },
+    {
+        "topic": "Intervals",
+        "title": "Insert Interval",
+        "url": "https://leetcode.com/problems/insert-interval/",
+        "description": "Insert a new interval into a list of non-overlapping intervals and merge if necessary.\nA slightly trickier interval problem requiring careful ordering.\nHint: Iterate and handle three cases: entirely before, entirely after, or overlapping."
+    },
+    {
+        "topic": "Intervals",
+        "title": "Non-overlapping Intervals",
+        "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+        "description": "Find the minimum number of intervals you need to remove to make the rest non-overlapping.\nA greedy interval scheduling problem.\nHint: Sort by end times and always pick the interval that ends earliest."
+    },
+    {
+        "topic": "Intervals",
+        "title": "Meeting Rooms",
+        "url": "https://leetcode.com/problems/meeting-rooms/",
+        "description": "Determine if a person could attend all meetings (no overlapping intervals).\nA basic interval scheduling problem.\nHint: Sort the intervals by start time and check if any start time is less than the previous end time."
+    },
+    {
+        "topic": "Intervals",
+        "title": "Minimum Interval to Include Each Query",
+        "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+        "description": "Find the size of the smallest interval containing each query point.\nA challenging problem combining intervals, sorting, and priority queues.\nHint: Sort queries and intervals. Use a min-heap to keep track of valid interval sizes."
+    },
+    {
+        "topic": "Bit Manipulation",
+        "title": "Single Number",
+        "url": "https://leetcode.com/problems/single-number/",
+        "description": "Find the single element in an array where every other element appears twice.\nA classic bit manipulation trick problem.\nHint: XOR all elements together; duplicates will cancel each other out."
+    },
+    {
+        "topic": "Bit Manipulation",
+        "title": "Number of 1 Bits",
+        "url": "https://leetcode.com/problems/number-of-1-bits/",
+        "description": "Write a function that takes an unsigned integer and returns the number of '1' bits.\nA fundamental bitwise operations test.\nHint: Use the trick n & (n - 1) to clear the lowest set bit."
+    },
+    {
+        "topic": "Bit Manipulation",
+        "title": "Counting Bits",
+        "url": "https://leetcode.com/problems/counting-bits/",
+        "description": "Return an array of the number of 1's in the binary representation of numbers from 0 to n.\nA DP problem based on bit manipulation.\nHint: The number of bits for n is the number of bits for n/2 plus n % 2."
+    },
+    {
+        "topic": "Bit Manipulation",
+        "title": "Reverse Bits",
+        "url": "https://leetcode.com/problems/reverse-bits/",
+        "description": "Reverse the bits of a 32-bit unsigned integer.\nA bit manipulation problem requiring shifting and masking.\nHint: Extract bits one by one and shift them into the reversed result."
+    },
+    {
+        "topic": "Bit Manipulation",
+        "title": "Sum of Two Integers",
+        "url": "https://leetcode.com/problems/sum-of-two-integers/",
+        "description": "Calculate the sum of two integers without using the operators + and -.\nA computer architecture problem simulating an adder with bitwise logic.\nHint: Use XOR for addition without carry, and AND with left shift for the carry."
+    },
+    {
+        "topic": "Math & Geometry",
+        "title": "Rotate Image",
+        "url": "https://leetcode.com/problems/rotate-image/",
+        "description": "Rotate an n x n 2D matrix 90 degrees clockwise in-place.\nA tricky matrix manipulation problem.\nHint: First transpose the matrix (swap symmetry), then reverse each row."
+    },
+    {
+        "topic": "Math & Geometry",
+        "title": "Spiral Matrix",
+        "url": "https://leetcode.com/problems/spiral-matrix/",
+        "description": "Return all elements of an m x n matrix in spiral order.\nA simulation problem requiring careful boundary management.\nHint: Keep track of top, bottom, left, and right boundaries and shrink them as you go."
+    },
+    {
+        "topic": "Math & Geometry",
+        "title": "Set Matrix Zeroes",
+        "url": "https://leetcode.com/problems/set-matrix-zeroes/",
+        "description": "If an element is 0, set its entire row and column to 0 in-place.\nA matrix problem requiring space optimization.\nHint: Use the first row and first column to keep track of which rows and columns need to be zeroed."
+    },
+    {
+        "topic": "Math & Geometry",
+        "title": "Happy Number",
+        "url": "https://leetcode.com/problems/happy-number/",
+        "description": "Determine if a number is 'happy' (sum of squares of digits eventually reaches 1).\nA math and cycle detection problem.\nHint: Use a hash set to track seen numbers, or Floyd's Cycle-Finding Algorithm."
+    },
+    {
+        "topic": "Math & Geometry",
+        "title": "Pow(x, n)",
+        "url": "https://leetcode.com/problems/powx-n/",
+        "description": "Calculate x raised to the power n.\nA math problem requiring an efficient O(log n) algorithm.\nHint: Use binary exponentiation: x^n = (x^2)^(n/2)."
+    }
+]
