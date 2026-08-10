@@ -69,6 +69,13 @@ async def send_daily_question():
     save_state(state)
     print(f"Sent question {index}: {question['title']}")
 
+@bot.command(name='test')
+async def test_command(ctx):
+    """Manually trigger the daily question."""
+    await send_daily_question()
+    await ctx.send("Test complete!")
+
+
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
