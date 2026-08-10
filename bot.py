@@ -13,6 +13,7 @@ CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
 
 # Intents setup
 intents = discord.Intents.default()
+intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Scheduler
