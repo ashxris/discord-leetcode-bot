@@ -82,7 +82,7 @@ async def on_ready():
     
     # Schedule the task for 9:00 AM every day
     # You can adjust the timezone parameter in CronTrigger if needed. By default it uses local system time.
-    scheduler.add_job(send_daily_question, CronTrigger(hour=3, minute=30))
+    scheduler.add_job(send_daily_question, CronTrigger(hour=9, minute=0, timezone='Asia/Kolkata'))
     scheduler.start()
     print("Scheduler started. The bot will send a question daily at 9 AM.")
 
